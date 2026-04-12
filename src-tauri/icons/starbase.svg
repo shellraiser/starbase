@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Dark background -->
+  <rect width="512" height="512" fill="#0a0a10" rx="96"/>
+
+  <!-- Outer ring (r=162, ~75% of original 216) -->
+  <circle cx="256" cy="256" r="162" fill="none" stroke="#FF9900" stroke-width="11" opacity="0.72"/>
+
+  <!-- Middle ring (r=99) -->
+  <circle cx="256" cy="256" r="99" fill="none" stroke="#FF9900" stroke-width="8" opacity="0.55"/>
+
+  <!-- Hub ring (r=41) -->
+  <circle cx="256" cy="256" r="41" fill="none" stroke="#FF9900" stroke-width="8"/>
+
+  <!-- Hub centre -->
+  <circle cx="256" cy="256" r="18" fill="#FFCC66" opacity="0.90"/>
+
+  <!-- Cardinal spokes: outer-ring edge → middle-ring edge -->
+  <line x1="256" y1="94"  x2="256" y2="157" stroke="#FF9900" stroke-width="7" opacity="0.65"/>
+  <line x1="256" y1="418" x2="256" y2="355" stroke="#FF9900" stroke-width="7" opacity="0.65"/>
+  <line x1="94"  y1="256" x2="157" y2="256" stroke="#FF9900" stroke-width="7" opacity="0.65"/>
+  <line x1="418" y1="256" x2="355" y2="256" stroke="#FF9900" stroke-width="7" opacity="0.65"/>
+
+  <!-- Diagonal spokes -->
+  <line x1="141" y1="141" x2="187" y2="187" stroke="#FF9900" stroke-width="7" opacity="0.65"/>
+  <line x1="371" y1="141" x2="325" y2="187" stroke="#FF9900" stroke-width="7" opacity="0.65"/>
+  <line x1="141" y1="371" x2="187" y2="325" stroke="#FF9900" stroke-width="7" opacity="0.65"/>
+  <line x1="371" y1="371" x2="325" y2="325" stroke="#FF9900" stroke-width="7" opacity="0.65"/>
+
+  <!-- Docking ports on outer ring (cardinal only) -->
+  <circle cx="256" cy="94"  r="12" fill="#FFCC66" opacity="0.85"/>
+  <circle cx="256" cy="418" r="12" fill="#FFCC66" opacity="0.85"/>
+  <circle cx="94"  cy="256" r="12" fill="#FFCC66" opacity="0.85"/>
+  <circle cx="418" cy="256" r="12" fill="#FFCC66" opacity="0.85"/>
+</svg>
